@@ -1,20 +1,16 @@
 {
-  "name": "@samryansoftwaresolutions/apache-node-proxy",
-  "version": "1.0.1",
+  "name": "apache-node-proxy",
+  "version": "1.0.2",
   "description": "CLI tool to automatically configure Apache virtual hosts for Node.js applications",
   "main": "dist/index.js",
   "bin": {
     "apache-node-proxy": "dist/index.js"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "test": "ts-node src/test.ts",
-    "publish:github": "./scripts/publish.sh",
     "prepare": "npm run build"
   },
   "keywords": [

@@ -65,7 +65,4 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-
-# npm configuration files
-.npmrc 
+.env 
