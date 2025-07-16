@@ -16,15 +16,38 @@ A powerful CLI tool to automatically configure Apache virtual hosts for Node.js 
 ### Using npx (Recommended)
 
 ```bash
-npx apache-node-proxy
+npx @samryansoftwaresolutions/apache-node-proxy
 ```
 
 ### Global Installation
 
 ```bash
-npm install -g apache-node-proxy
+npm install -g @samryansoftwaresolutions/apache-node-proxy
 apache-node-proxy
 ```
+
+### GitHub Packages Setup
+
+If you encounter authentication issues, you may need to configure GitHub Packages:
+
+1. **Create a Personal Access Token**:
+   - Go to GitHub Settings → Developer settings → Personal access tokens
+   - Generate a new token with `read:packages` scope
+   - Copy the token
+
+2. **Configure .npmrc**:
+   ```bash
+   # Copy the template
+   cp .npmrc.template .npmrc
+   
+   # Edit .npmrc and replace TOKEN with your actual token
+   nano .npmrc
+   ```
+
+3. **Install the package**:
+   ```bash
+   npm install -g @samryansoftwaresolutions/apache-node-proxy
+   ```
 
 ## 🛠️ Usage
 
@@ -33,7 +56,7 @@ apache-node-proxy
 Run the tool and follow the interactive prompts:
 
 ```bash
-sudo npx apache-node-proxy
+sudo npx @samryansoftwaresolutions/apache-node-proxy
 ```
 
 The tool will ask for:
@@ -46,7 +69,7 @@ The tool will ask for:
 ### Quick Setup (Coming Soon)
 
 ```bash
-sudo npx apache-node-proxy quick --path /path/to/app --port 3000 --name myapp
+sudo npx @samryansoftwaresolutions/apache-node-proxy quick --path /path/to/app --port 3000 --name myapp
 ```
 
 ## 📋 Prerequisites

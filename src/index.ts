@@ -247,7 +247,7 @@ class ApachePortForwarder {
 program
   .name('apache-node-proxy')
   .description('Configure Apache virtual hosts for Node.js applications')
-  .version('1.0.0')
+  .version('1.0.1')
   .action(async () => {
     const forwarder = new ApachePortForwarder();
     await forwarder.run();
