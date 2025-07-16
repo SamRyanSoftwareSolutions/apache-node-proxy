@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/linux-apache-node-port-forwarder.git"
+    "url": "https://github.com/SamRyanSoftwareSolutions/apache-node-proxy"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/linux-apache-node-port-forwarder/issues"
+    "url": "https://github.com/SamRyanSoftwareSolutions/apache-node-proxy/issues"
   },
-  "homepage": "https://github.com/yourusername/linux-apache-node-port-forwarder#readme"
+  "homepage": "https://github.com/SamRyanSoftwareSolutions/apache-node-proxy#readme"
 } 
